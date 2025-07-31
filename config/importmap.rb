@@ -18,3 +18,13 @@ pin "chart.js", to: "https://ga.jspm.io/npm:chart.js@4.2.0/dist/chart.js"
 pin "@kurkle/color", to: "https://ga.jspm.io/npm:@kurkle/color@0.3.2/dist/color.esm.js"
 pin "@fortawesome/fontawesome-free", to: "@fortawesome--fontawesome-free.js"
 pin "universalviewer", to: "https://cdn.jsdelivr.net/npm/universalviewer@4.2.0/dist/esm/index.js"
+
+# blacklight-allmaps
+pin "leaflet", to: "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js", preload: true
+pin "leaflet-fullscreen", to: "https://cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/Leaflet.fullscreen.min.js", preload: true
+pin "@allmaps/leaflet", to: "https://cdn.jsdelivr.net/npm/@allmaps/leaflet/dist/bundled/allmaps-leaflet-1.9.umd.js", preload: true
+# pin_all_from File.expand_path("../app/javascript/blacklight/allmaps", __dir__), under: "blacklight-allmaps"
+# default pin above from Allmaps installer doesn't work, getting error:
+# Uncaught TypeError: The specifier “blacklight-allmaps” was a bare specifier, but was not remapped to anything.
+# instead ran bin/importmap pin blacklight-allmaps to add to vendor/javascript:
+pin "blacklight-allmaps" # @0.3.1
