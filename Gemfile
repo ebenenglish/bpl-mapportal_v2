@@ -34,7 +34,8 @@ gem "bootsnap", require: false
 
 gem "blacklight", "~> 8.11"
 gem "commonwealth-vlr-engine", github: "boston-library/commonwealth-vlr-engine", branch: "blacklight-8"
-gem "blacklight_allmaps"
+# gem "blacklight_allmaps"
+gem "blacklight_allmaps", path: "/home/eenglish/bplmaps/blacklight-allmaps"
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem "sdoc", "~> 2.6", ">= 2.6.1", group: :doc

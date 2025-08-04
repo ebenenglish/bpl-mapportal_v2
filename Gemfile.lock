@@ -21,6 +21,13 @@ GIT
       typhoeus (~> 1.4)
       zipline (~> 2.0.0)
 
+PATH
+  remote: /home/eenglish/bplmaps/blacklight-allmaps
+  specs:
+    blacklight_allmaps (0.4.0)
+      blacklight (>= 7.25.2, < 9)
+      httparty (~> 0.20)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -124,9 +131,6 @@ GEM
     blacklight_advanced_search (8.0.0.alpha2)
       blacklight (>= 7.15, < 9)
       parslet
-    blacklight_allmaps (0.4.0)
-      blacklight (>= 7.25.2, < 9)
-      httparty (~> 0.20)
     blacklight_iiif_search (3.0.1)
       blacklight (~> 8.0)
       iiif-presentation
@@ -586,7 +590,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord-session_store (~> 2.2)
   blacklight (~> 8.11)
-  blacklight_allmaps
+  blacklight_allmaps!
   bootsnap
   brakeman
   byebug
