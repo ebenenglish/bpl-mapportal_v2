@@ -27,6 +27,7 @@ $fa-font-path: ".";
   "vendors/trix",
   "vendors/sir-trevor",
   "vendors/leaflet.draw",
+  "vendors/leaflet.opacity",
   "bootstrap-switch",
   "fontello",
   "animation";
@@ -109,6 +110,5 @@ $fa-font-path: ".";
 // instead, contents copied below with modified paths
 @import "leaflet/dist/leaflet";
 @import "leaflet-fullscreen/dist/leaflet.fullscreen";
-// TODO: uncomment below once leaflet.opacity has been added to blacklight-allmaps npm package, currently missing
-// @import "blacklight-allmaps/app/assets/stylesheets/blacklight/allmaps/modules/leaflet.opacity";
+
 #blacklight-allmaps-map { height: 400px; }
