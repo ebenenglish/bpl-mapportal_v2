@@ -21,8 +21,10 @@ GIT
       typhoeus (~> 1.4)
       zipline (~> 2.0.0)
 
-PATH
-  remote: /home/eenglish/bplmaps/blacklight-allmaps
+GIT
+  remote: https://github.com/bplmaps/blacklight-allmaps.git
+  revision: 4bbe5f8740ca687e78f14db943c1599651aeb4ef
+  branch: importmaps-config
   specs:
     blacklight_allmaps (0.4.0)
       blacklight (>= 7.25.2, < 9)

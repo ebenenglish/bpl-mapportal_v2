@@ -22,6 +22,6 @@ pin "universalviewer", to: "https://cdn.jsdelivr.net/npm/universalviewer@4.2.0/d
 pin_all_from "app/javascript/legacy", under: "legacy"
 
 # blacklight-allmaps
-pin "leaflet", to: "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"
-pin "leaflet-fullscreen", to: "https://cdn.jsdelivr.net/npm/leaflet-fullscreen@1.0.2/dist/Leaflet.fullscreen.min.js"
-pin "@allmaps/leaflet", to: "https://cdn.jsdelivr.net/npm/@allmaps/leaflet/dist/bundled/allmaps-leaflet-1.9.umd.js"
+pin "leaflet", to: "https://ga.jspm.io/npm:leaflet@1.9.4/dist/leaflet-src.js"
+pin "leaflet-fullscreen", to: "https://ga.jspm.io/npm:leaflet-fullscreen@1.0.2/dist/Leaflet.fullscreen.js"
+pin "@allmaps/leaflet", to: "https://cdn.jsdelivr.net/npm/@allmaps/leaflet@1.0.0-beta.49/+esm"
